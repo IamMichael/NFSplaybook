@@ -1,0 +1,5 @@
+- hosts: g_nfs_client
+  roles:
+    - yumRepo
+    - nfsClient
+
